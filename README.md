@@ -28,17 +28,37 @@ Next state of D flip-flop is always equal to data input, D for every positive tr
 
 **Procedure**
 
-/* write all the steps invloved */
+Inputs:
+D: The data input.
+clk: The clock signal.
+reset (optional): To initialize or reset the output.
+
+Output:
+Q: The current state (output).
+Q_bar (optional): The inverted output.
+
+Behavior:
+On the rising edge of the clock:
+Q is set to the value of D.
+If a synchronous or asynchronous reset is present, the output is reset to 0 (or a defined state).
+
 
 **PROGRAM**
+DEVELOPED BY :RAM PRASATH S , Register Number :24900195
 
-/* Program for flipflops and verify its truth table in quartus using Verilog programming. Developed by: RegisterNumber:
-*/
+![DE ex8 code](https://github.com/user-attachments/assets/709464c3-22a6-4f94-b58e-fbcceefd1a38)
+
 
 **RTL LOGIC FOR FLIPFLOPS**
+
+![DE ex8 diagram](https://github.com/user-attachments/assets/705841e2-1893-4a8a-a943-636ecd44c4d5)
 
 
 **TIMING DIGRAMS FOR FLIP FLOPS**
 
+![DE ex8 waveform](https://github.com/user-attachments/assets/aabfd524-37ed-4baa-93aa-20cf39177f98)
+
 
 **RESULTS**
+
+The implementation  D flipflop using verilog and validating their functionality using their functional tables
